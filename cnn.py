@@ -53,7 +53,7 @@ model = classifier.fit_generator(training_set,
                          validation_data = test_set,    
                          validation_steps = 2000)
 
-classifier.save("model.h5")
+classifier.save("model3.h5")
 print("Saved model to disk")
 
 # Part 3 - Making new predictions
